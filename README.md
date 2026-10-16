@@ -1,4 +1,4 @@
-# mdheadinglint
+# Mdheadinglint
 
 Lint Markdown heading structure and style: spacing, ordering, casing, and hierarchy.
 
@@ -34,13 +34,13 @@ mdheadinglint README.md docs/
 mdheadinglint --json README.md
 ```
 
-### Exit codes
+### Exit Codes
 
 - `0` — no issues found
 - `1` — one or more heading issues found
 - `2` — unexpected failure
 
-## Project structure
+## Project Structure
 
 ```
 Week-27/mdheadinglint
@@ -59,3 +59,6 @@ Week-27/mdheadinglint
 ## Tags
 
 markdown, lint, heading, documentation, style, cli
+
+---
+[Repository](https://github.com/ethical-dilkhush/mdheadinglint)
