@@ -5,7 +5,7 @@ from typing import List
 from mdheadinglint.model import HeadingIssue
 
 
-def parse_headings(text: str) -> list[dict]:
+def parse_headings(text: str) -> list[dict[str, str]]:
     headings: list[dict] = []
     lines = text.splitlines()
     for index, line in enumerate(lines, start=1):
@@ -22,7 +22,7 @@ def parse_headings(text: str) -> list[dict]:
     return headings
 
 
-def lint_spacing(text: str) -> List[HeadingIssue]:
+def lint_spacing(text: str) -> list[HeadingIssue]:
     issues: List[HeadingIssue] = []
     lines = text.splitlines()
     for index, line in enumerate(lines, start=1):

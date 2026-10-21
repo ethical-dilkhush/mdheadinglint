@@ -9,7 +9,7 @@ description = "Lint Markdown heading structure and style: spacing, ordering, cas
 readme = "README.md"
 license = { text = "MIT" }
 requires-python = ">=3.10"
-authors = [{ name = "ProjectCreationAgent" }]
+authors = [{ name = "Dilkhush Kumar" }]
 classifiers = [
     "Development Status :: 3 - Alpha",
     "Intended Audience :: Developers",
